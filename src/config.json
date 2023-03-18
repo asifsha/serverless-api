@@ -1,0 +1,8 @@
+{
+    "port": "18000",
+      "https": {
+        "key": "../sslcert/server.key",
+        "cert": "../sslcert/server.cert"
+      },
+      "serviceName" : "express-api"
+  }

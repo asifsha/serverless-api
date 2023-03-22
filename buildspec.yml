@@ -16,7 +16,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-  artifacts:
-    files:
-      - '**/*'
-    base-directory: 'dist'
+# Include only the files required for your application to run.
+artifacts:
+  files:
+     - '/**/*'
+  base-directory: ./dist

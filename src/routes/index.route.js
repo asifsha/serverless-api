@@ -7,7 +7,7 @@ const router = express.Router();
 router.use('/cars', cars);
 router.use('/', swagger);
 
-router.get('/', (req, res) => res.send('Sample Node API Version1'));
+router.get('/', (req, res) => res.send('Sample Node API Version 2'));
 router.get('/health', (req, res) => {
   const healthcheck = {
 		uptime: process.uptime(),
